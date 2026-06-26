@@ -9,17 +9,16 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.ksp)
-    alias(libs.plugins.google.services)
-    alias(libs.plugins.firebase.crashlytics)
     alias(libs.plugins.baselineprofile)
-}
+ 
+ }
 
 android {
     namespace = "me.rerere.rikkahub"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "me.rerere.rikkahub"
+        applicationId = "com.rikkahub.c"
         minSdk = 26
         targetSdk = 37
         versionCode = 165
